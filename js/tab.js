@@ -59,35 +59,35 @@ function ChangeModal() {
         MODAL_IMG_3.src = WORKS_6.cover_3;
     });
     OTHER_MODAL_1.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_1.title;
+        MODAL_TITLE.innerHTML = OTHER_1.title;
         MODAL_INFO.innerHTML = OTHER_1.info;
         MODAL_IMG_1.src = OTHER_1.cover;
         MODAL_IMG_2.src = OTHER_1.cover_2;
         MODAL_IMG_3.src = OTHER_1.cover_3;
     });
     OTHER_MODAL_2.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_2.title;
+        MODAL_TITLE.innerHTML = OTHER_2.title;
         MODAL_INFO.innerHTML = OTHER_2.info;
         MODAL_IMG_1.src = OTHER_2.cover;
         MODAL_IMG_2.src = OTHER_2.cover_2;
         MODAL_IMG_3.src = OTHER_2.cover_3;
     });
     OTHER_MODAL_3.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_3.title;
+        MODAL_TITLE.innerHTML = OTHER_3.title;
         MODAL_INFO.innerHTML = OTHER_3.info;
         MODAL_IMG_1.src = OTHER_3.cover;
         MODAL_IMG_2.src = OTHER_3.cover_2;
         MODAL_IMG_3.src = OTHER_3.cover_3;
     });
     OTHER_MODAL_4.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_4.title;
+        MODAL_TITLE.innerHTML = OTHER_4.title;
         MODAL_INFO.innerHTML = OTHER_4.info;
         MODAL_IMG_1.src = OTHER_4.cover;
         MODAL_IMG_2.src = OTHER_4.cover_2;
         MODAL_IMG_3.src = OTHER_4.cover_3;
     });
     OTHER_MODAL_5.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_5.title;
+        MODAL_TITLE.innerHTML = OTHER_5.title;
         MODAL_INFO.innerHTML = OTHER_5.info;
         MODAL_IMG_1.src = OTHER_5.cover;
         MODAL_IMG_2.src = OTHER_5.cover_2;
@@ -143,6 +143,46 @@ const WORKS_6 = {
     cover:"./media/works_6.png",
     cover_2: "./media/works_6-1.png",
     cover_3: "./media/works_6-2.png"
+}
+
+const OTHER_1 = {
+    title: "남북 공동선언 1주년 판문점 취재",
+    info: "남북 공동선언 1주년 기념행사 취재입니다. '우리가 가야 할 그 길' 이라는 제목으로 특집기사를 작성했습니다.",
+    cover: "./media/other_1.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_2 = {
+    title: "mirr One UI 디자인",
+    info: "독일의 개발팀 Glancr와 공동 개발한 iot S/W입니다. 한국에서 원활한 사용이 가능하게끔 한글 지원 및 사용자 친화적 UI, AI 비서, 스타일러스 캘린더 기능 등을 개발하고 있습니다.",
+    cover: "./media/other_2.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_3 = {
+    title: "mirr.OS 한글번역 프로젝트",
+    info: "Glancr의 mirr.OS를 한국 사용자들이 편하게 사용할 수 있게끔 번역 작업 및 api 수정등을 진행중입니다.",
+    cover: "./media/other_3.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_4 = {
+    title: "May KING 수업",
+    info: "비교적 비전공자들이 다가가기 어려웠던 설계와 디자인을 무료로 학생들에게 제공하는 STUDIO의 사회공헌 프로젝트 입니다. 현재 경기 꿈의학교 프로그램에 등록되어 있으며 운영과 설계 수업을 담당하여 진행중에 있습니다.",
+    cover: "./media/other_4.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_5 = {
+    title: "STUDIO",
+    info: "STUDIO는 특정한 사회 문제를 해결하는 것을 목적으로 사회적 기업을 설립하기 위해 만든 팀 입니다. 최근 4차 산업혁명이 마치 이미 예정된 일처럼 여겨지고 있는데, 4차 산업혁명이라는 새로운 흐름에 적응하지 못할 사람들을 위해 우리의 작은 힘을 보태기로 했습니다. 그렇게 우리는 상품을 판매한 수익을 바탕으로 세상의 균형을 바로잡기 위한 팀, STUDIO를 설립하게 되었습니다.",
+    cover: "./media/works_5.png",
+    cover_2: "",
+    cover_3: ""
 }
 
 ChangeModal();

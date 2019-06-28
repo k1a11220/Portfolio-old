@@ -59,35 +59,35 @@ function ChangeModal() {
         MODAL_IMG_3.src = WORKS_6.cover_3;
     });
     OTHER_MODAL_1.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_1.title;
+        MODAL_TITLE.innerHTML = OTHER_1.title;
         MODAL_INFO.innerHTML = OTHER_1.info;
         MODAL_IMG_1.src = OTHER_1.cover;
         MODAL_IMG_2.src = OTHER_1.cover_2;
         MODAL_IMG_3.src = OTHER_1.cover_3;
     });
     OTHER_MODAL_2.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_2.title;
+        MODAL_TITLE.innerHTML = OTHER_2.title;
         MODAL_INFO.innerHTML = OTHER_2.info;
         MODAL_IMG_1.src = OTHER_2.cover;
         MODAL_IMG_2.src = OTHER_2.cover_2;
         MODAL_IMG_3.src = OTHER_2.cover_3;
     });
     OTHER_MODAL_3.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_3.title;
+        MODAL_TITLE.innerHTML = OTHER_3.title;
         MODAL_INFO.innerHTML = OTHER_3.info;
         MODAL_IMG_1.src = OTHER_3.cover;
         MODAL_IMG_2.src = OTHER_3.cover_2;
         MODAL_IMG_3.src = OTHER_3.cover_3;
     });
     OTHER_MODAL_4.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_4.title;
+        MODAL_TITLE.innerHTML = OTHER_4.title;
         MODAL_INFO.innerHTML = OTHER_4.info;
         MODAL_IMG_1.src = OTHER_4.cover;
         MODAL_IMG_2.src = OTHER_4.cover_2;
         MODAL_IMG_3.src = OTHER_4.cover_3;
     });
     OTHER_MODAL_5.addEventListener("click", function () {
-        OTHER_MODAL_TITLE.innerHTML = OTHER_5.title;
+        MODAL_TITLE.innerHTML = OTHER_5.title;
         MODAL_INFO.innerHTML = OTHER_5.info;
         MODAL_IMG_1.src = OTHER_5.cover;
         MODAL_IMG_2.src = OTHER_5.cover_2;
@@ -99,7 +99,7 @@ function ChangeModal() {
 
 const WORKS_1= {
     title: "fromis_9's lightstick Design",
-    info: "I get inspiration by fromis_9's first single album 'Fun Factory'. It means nine-side figure make one flame like Flame Torch",
+    info: "I got inspiration by fromis_9's first single album 'Fun Factory'. It means nine-side figure make one flame like Flame Torch.",
     cover:"./media/works_1.png",
     cover_2: "./media/works_1-1.png",
     cover_3: "./media/works_1-2.png"
@@ -115,7 +115,7 @@ const WORKS_2 = {
 
 const WORKS_3 = {
     title: "Design mirr One",
-    info: "mirr One, a smart mirror. Using mirr.OS, it help you manage your schedule for today's precious people every second. It also dramatically reduced unit prices, making it more accessible to consumers.",
+    info: "mirr One, a smart mirror. Using mirr.OS, it helps you manage your schedule for modern people in need of scheduling. It also dramatically reduced unit prices, making it more accessible to consumers.",
     cover:"./media/works_3.png",
     cover_2: "./media/works_3-1.png",
     cover_3: "./media/works_3-2.png"
@@ -145,4 +145,43 @@ const WORKS_6 = {
     cover_3: "./media/works_6-2.png"
 }
 
+const OTHER_1 = {
+    title: "남북 공동선언 1주년 판문점 취재",
+    info: "남북 공동선언 1주년 기념행사 취재입니다. '우리가 가야 할 그 길' 이라는 제목으로 특집기사를 작성했습니다.",
+    cover: "./media/other_1.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_2 = {
+    title: "mirr One UI design",
+    info: "Iot S/W co-developed with German development team Glancr. We are developing user-friendly UI, AI assistant and stylus calendar functions to enable smooth use in Korea.",
+    cover: "./media/other_2.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_3 = {
+    title: "mirr.OS translation",
+    info: "To make the mirr.OS of Glancr comfortable for Korean users. Translation work and api modification etc.",
+    cover: "./media/other_3.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_4 = {
+    title: "May KING class",
+    info: "STUDIO's social contribution project. Design was relatively difficult for non-engineers to reach. So May KING provides students with free design class. Currently, I am enrolled in Gyeonggi Dream School program, and I am currently in charge of operation and design.",
+    cover: "./media/other_4.png",
+    cover_2: "",
+    cover_3: ""
+}
+
+const OTHER_5 = {
+    title: "STUDIO",
+    info: "STUDIO is a team created to establish social enterprises with the aim of solving specific social problems. The recent Fourth Industrial Revolution. We decided to add our little strength to those who would not be able to adapt to the new trend of the Fourth Industrial Revolution. So we started STUDIO, a team that was able to balance the world based on the revenue from selling products.",
+    cover: "./media/works_5.png",
+    cover_2: "",
+    cover_3: ""
+}
 ChangeModal();
