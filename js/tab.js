@@ -133,8 +133,8 @@ const WORKS_5 = {
     title:"블랭킹금형 설계",
     info:"블랭킹 및 피어싱 가공을 하기위해 금형을 설계하였습니다. 첫 번째 금형설계 프로젝트로서 아크릴을 이용하여 MCT로 실제로 제작하였습니다.",
     cover:"./media/works_5.png",
-    cover_2: "./media/works_5-1.png",
-    cover_3: "./media/works_5-2.png"
+    cover_2: "./media/works_5-1.jpg",
+    cover_3: "./media/works_5-2.jpg"
 }
 
 const WORKS_6 = {

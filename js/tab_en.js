@@ -133,8 +133,8 @@ const WORKS_5 = {
     title:"Blanking mold design",
     info:"The mold was designed for blanking and piercing. And this project was actually produced using acrylic as MCT.",
     cover:"./media/works_5.png",
-    cover_2: "./media/works_5-1.png",
-    cover_3: "./media/works_5-2.png"
+    cover_2: "./media/works_5-1.jpg",
+    cover_3: "./media/works_5-2.jpg"
 }
 
 const WORKS_6 = {
@@ -172,9 +172,9 @@ const OTHER_3 = {
 const OTHER_4 = {
     title: "May KING class",
     info: "STUDIO's social contribution project. Design was relatively difficult for non-engineers to reach. So May KING provides students with free design class. Currently, I am enrolled in Gyeonggi Dream School program, and I am currently in charge of operation and design.",
-    cover: "./media/other_4.png",
-    cover_2: "",
-    cover_3: ""
+    cover: "./media/other_4.jpg",
+    cover_2: "./media/other_4-1.jpg",
+    cover_3: "./media/other_4-2.jpg"
 }
 
 const OTHER_5 = {
