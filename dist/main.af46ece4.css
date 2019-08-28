@@ -105,6 +105,12 @@ header {
   height: 100vh;
 }
 
+.lang-sel {
+  display: flex;
+  justify-content: center;
+
+}
+
 .box-wrap {
   display: flex;
   justify-content: center;
@@ -115,25 +121,21 @@ header {
 .box1 {
   display: inline-block;
   background-color: #eee;
-  width: 18rem;
+  width: 15rem;
   height: 38rem;
   transition: all 650ms;
   transform: translateY(-30px);
   transition: all 650ms;
   overflow: hidden;
-  border-top-left-radius: 5rem;
-  border-bottom-left-radius: 5rem;
 }
 
 .box2 {
   display: inline-block;
   background-color: #eee;
-  width: 18rem;
+  width: 15rem;
   height: 38rem;
   transform: translateY(-80px);
   transition: all 650ms;
-  border-top-right-radius: 5rem;
-  border-bottom-right-radius: 5rem;
 }
 
 .landing-text:hover .box2 {
@@ -383,7 +385,7 @@ li {
 
 .portfolio-description h1 {
   font-size: 3rem;
-  font-weight: 1000;
+  font-weight: 500;
   margin: 1rem 0;
 }
 
