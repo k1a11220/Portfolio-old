@@ -97,50 +97,50 @@ function ChangeModal() {
 
 /*모달 내용*/
 
-const WORKS_1= {
+const WORKS_1 = {
     title: "프로미스나인 응원봉 디자인",
     info: "프로미스나인의 첫 번째 싱글앨범 Fun Factory의 컬러와 9각형을 통해 불꽃이 모이는 성화봉을 컨셉으로 하여 디자인하였습니다.",
-    cover:"./media/works_1.png",
+    cover: "./media/works_1.png",
     cover_2: "./media/works_1-1.png",
     cover_3: "./media/works_1-2.png"
 }
 
 const WORKS_2 = {
     title: "시각장애인 스마트폰 케이스",
-    info: "시각장애인들의 원활한 스마트폰 사용을 위해 터치 오류를 최소화 하고 뒤집어 장착하면 키보드 사용이 가능하게끔 디자인하였습니다.",
-    cover:"./media/works_2.png",
+    info: "시각장애인들의 원활한 스마트폰 사용을 위해 터치 오류를 최소화 한 버튼 구멍을 설계하고, 케이스를 뒤집어 장착하면 키보드 사용이 가능하게끔 디자인하였습니다.",
+    cover: "./media/works_2.png",
     cover_2: "./media/works_2-1.png",
     cover_3: "./media/works_2-2.png"
 }
 
 const WORKS_3 = {
     title: "mirr One 디자인",
-    info: "스마트미러인 mirr One 입니다. mirr.OS를 이용하여 일분일초가 아까운 현대인들을 위해 일정관리를 도와줍니다. 또한 단가 역시 파격적으로 줄여 소비자들의 접근성을 높였습니다.",
-    cover:"./media/works_3.png",
+    info: "스마트미러 mirr One을 직접 디자인&설계하였습니다. 일분 일초가 아까운 현대인들을 위한 제품입니다. 다만, 배터리가 내장되어있지 않아 외부전원공급이 필요합니다.",
+    cover: "./media/works_3.png",
     cover_2: "./media/works_3-1.png",
     cover_3: "./media/works_3-2.png"
 }
 
 const WORKS_4 = {
-    title:"드로잉금형 설계",
-    info:"컵 모양의 제품을 생산하기 위해 드로잉금형을 설계하였습니다. 설계기간은 재료의 두께 크기등을 고려하여 약 2주동안 설계하였습니다.",
-    cover:"./media/works_4.png",
+    title: "드로잉금형 설계",
+    info: "컵 모양의 제품을 생산하기 위해 드로잉금형을 설계하였습니다. 설계기간은 재료의 두께 크기등을 고려하여 약 2주동안 설계하였습니다.",
+    cover: "./media/works_4.png",
     cover_2: "./media/works_4-1.png",
     cover_3: "./media/works_4-2.png"
 }
 
 const WORKS_5 = {
-    title:"블랭킹금형 설계",
-    info:"블랭킹 및 피어싱 가공을 하기위해 금형을 설계하였습니다. 첫 번째 금형설계 프로젝트로서 아크릴을 소재로 MCT를 이용하여 실제로 제작하였습니다.",
-    cover:"./media/works_5.png",
+    title: "블랭킹금형 설계",
+    info: "블랭킹 및 피어싱 가공을 하기위해 금형을 설계하였습니다. 첫 번째 금형설계 프로젝트로서 아크릴을 소재로 MCT를 이용하여 실제로 제작하였습니다.",
+    cover: "./media/works_5.png",
     cover_2: "./media/works_5-1.jpg",
     cover_3: "./media/works_5-2.jpg"
 }
 
 const WORKS_6 = {
-    title:"미세먼지 마스크 디자인",
-    info:"복식호흡을 응용하여 외부 전원 없이 고성능의 마스크를 이용 할 수 있도록 설계한 프로젝트입니다.",
-    cover:"./media/works_6.png",
+    title: "미세먼지 마스크 디자인",
+    info: "복식호흡을 응용하여 외부 전원 없이 고성능의 마스크를 이용 할 수 있도록 설계한 프로젝트입니다.",
+    cover: "./media/works_6.png",
     cover_2: "./media/works_6-1.png",
     cover_3: "./media/works_6-2.png"
 }
