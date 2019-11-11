@@ -118,6 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/modal.js":[function(require,module,exports) {
+<<<<<<< HEAD
 // Get the modal
 var modal = document.getElementById('myModal'); // Get the <span> element that closes the modal
 
@@ -137,6 +138,9 @@ window.onclick = function (event) {
 function show() {
   modal.style.display = "block";
 }
+=======
+
+>>>>>>> 2744b5d1d5f0987599c28e9d35139bef2d58d487
 },{}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
