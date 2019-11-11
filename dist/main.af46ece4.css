@@ -104,6 +104,10 @@ button {
   margin-right: 5rem;
 }
 
+.portfolio-img img {
+  max-width: 100em;
+}
+
 /*End reusable*/
 
 /*Start header*/
