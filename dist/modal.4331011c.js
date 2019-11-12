@@ -118,29 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/modal.js":[function(require,module,exports) {
-<<<<<<< HEAD
-// Get the modal
-var modal = document.getElementById('myModal'); // Get the <span> element that closes the modal
 
-var span = document.getElementsByClassName("close")[0]; // When the user clicks on <span> (x), close the modal
-
-span.onclick = function () {
-  modal.style.display = "none";
-}; // When the user clicks anywhere outside of the modal, close it
-
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
-
-function show() {
-  modal.style.display = "block";
-}
-=======
-
->>>>>>> 2744b5d1d5f0987599c28e9d35139bef2d58d487
 },{}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -169,7 +147,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60726" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61822" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
