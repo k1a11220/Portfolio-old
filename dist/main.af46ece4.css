@@ -32,7 +32,8 @@
   text-align: center;
 }
 
-.box__:hover .img_cover {}
+.box__:hover .img_cover {
+}
 
 * {
   margin: 0;
@@ -154,7 +155,6 @@ header {
 .lang-sel {
   display: flex;
   justify-content: center;
-
 }
 
 .box-wrap {
@@ -827,7 +827,6 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-
 .modal-content p {
   position: absolute;
   font-size: 3rem;
@@ -840,9 +839,10 @@ input[type="submit"]:hover {
 
 .showing {
   display: block;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* <i class="close fas fa-times"></i> */
+
 
 /*# sourceMappingURL=/main.af46ece4.css.map */

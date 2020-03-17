@@ -10,6 +10,7 @@
     "start": "parcel index.html"
   },
   "dependencies": {
-    "lumenbox": "^1.1.5"
+    "lumenbox": "^1.1.5",
+    "parcel": "^1.12.4"
   }
 }
